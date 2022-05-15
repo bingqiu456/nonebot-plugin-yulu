@@ -16,7 +16,7 @@ yulu_on_group=["群号"]
 ```
 bot.py加
 ```
-nonebot.load.plugins("echo")
+nonebot.load_plugin("nonebot_plugin_yulu")
 ```
 ------
 ### 使用？bug？
