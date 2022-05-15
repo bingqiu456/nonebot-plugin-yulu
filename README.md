@@ -14,6 +14,10 @@ nb plugin install nonebot-plugin-yulu
 ```
 yulu_on_group=["群号"]
 ```
+bot.py加
+```
+nonebot.load.plugins("echo")
+```
 ------
 ### 使用？bug？
 启动之后 回复/菜单 即可使用
