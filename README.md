@@ -10,7 +10,7 @@ pip install nonebot-plugin-yulu
 nb plugin install nonebot-plugin-yulu
 ```
 ## 使用
-请在evn文件里添加
+请在.env文件里添加
 ```
 yulu_on_group=["群号"] #配置开启群号
 COMMAND_START=["/"] # 配置命令起始字符
