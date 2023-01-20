@@ -2,7 +2,7 @@
 import setuptools
 setuptools.setup(
     name = "nonebot_plugin_yulu",
-    version = "2.0",
+    version = "3.0",
     packages = setuptools.find_packages(),
     author="bingyue",
     author_email="hello-yiqiu@qq.com",
