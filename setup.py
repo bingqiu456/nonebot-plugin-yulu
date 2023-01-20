@@ -12,7 +12,8 @@ setuptools.setup(
         "bs4>=0.0.1",
         "beautifulsoup4>=4.11.1",
         "nonebot2>=2.0.0b2",
-        "nonebot-adapter-onebot>=2.0.0b1"
+        "nonebot-adapter-onebot>=2.0.0b1",
+        "httpx==0.23.1"
     ],
     keywords=["nonebot_plugin_yulu","nonebot","nonebot_plugin"],
     package_data={
