@@ -151,11 +151,11 @@ async def _(event:GroupMessageEvent):
             a = f.readlines()
             b = random.randint(0,len(a))
     except FileNotFoundError:
-        await jitang.finish()
+        await yiyan.finish()
     else:
         
         if str (event.group_id) in on_group:
-            await jitang.finish(a[b].strip('\n'))
+            await yiyan.finish(a[b].strip('\n'))
     
 
 jitang = on_command('鸡汤')
